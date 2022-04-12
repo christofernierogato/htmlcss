@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(22, 41, 113);
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+            color: aqua;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.611);
+        }
+
+        header {
+            background-color: rgb(15, 77, 158);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        main {
+            background-color: rgb(15, 77, 158);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        nav {
+            background-color: rgb(15, 88, 184);
+            padding: 3px;
+            box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.595);
+            border-radius: 20px;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: rgb(49, 207, 255);
+            padding: 35px;
+        }
+
+        article {
+            background-color: rgb(85, 53, 224);
+            padding: 5px;
+            border-radius: 35px;
+        }
+
+        article>aside {
+            background-color: rgb(41, 109, 164);
+            color: aqua;
+            border-radius: 25px;
+        }
+
+        section>p {
+            color: rgb(54, 201, 255);
+        }
+
+        footer {
+            background-color: rgb(25, 51, 180);
+            color: rgb(178, 103, 235);
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            border-radius: 20px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero in nam recusandae ipsum eum
+                    sapiente nobis tempora quam qui quaerat accusamus obcaecati pariatur quis iure possimus
+                    necessitatibus, quos error.</p>
+                <aside>
+                    <p>Artigo Escrito Por Christofer Niero Gato</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido Por Christofer</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
