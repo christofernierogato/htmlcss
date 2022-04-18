@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body{
-    background-image: url("imagens/pattern004.png");
+    background-image: url("imagens/wallpaper002.jpg");
+    background-repeat: no-repeat;
 }
 
 div.quadrado{
