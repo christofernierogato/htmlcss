@@ -19,7 +19,7 @@
 html, body{
     min-width: 100vw;
     min-height: 100vh;
-    background-color: white;
+    background-color: rgb(240, 169, 169);
     font-family: var(--fonte1);
 }
 
