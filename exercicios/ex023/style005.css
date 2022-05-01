@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+col.nome{
+    background-color: aquamarine;
+}
+
+col.sexo{
+    background-color: rgb(35, 236, 169);
+}
+
+col.idade{
+    background-color: rgb(21, 114, 83);
+}
+
+col.profissao{
+    background-color: rgb(100, 194, 162);
+}
